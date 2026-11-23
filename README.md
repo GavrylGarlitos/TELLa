@@ -130,12 +130,12 @@ The SQL dump also contains sample records.
 
 ## Contributors
 
-This project was developed as a group project. Add your group members' names and roles below:
+This project was developed as a group project. 
 
-- **[Member 1]** – [Role / Contribution]
-- **[Member 2]** – [Role / Contribution]
-- **[Member 3]** – [Role / Contribution]
+- **Boticario, Chriz Jovennel**
+- **Garlitos, Gavryl**
+- **Gorospe, Paolo**
+- **Isip, Franco Gerard**
+- **Peñaranda, Philip Sebastian**
 
-## License
 
-This project was created for educational purposes. Add a license here if you intend to distribute or reuse the project publicly.
