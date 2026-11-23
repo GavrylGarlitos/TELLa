@@ -32,35 +32,6 @@ TELLa Online Store System is a PHP-based e-commerce website that allows customer
 - **Font Awesome** – icons
 - **Philippine Address Selector data** – region, province, city, and barangay selection
 
-## Project Structure
-
-```text
-TELLa-Online-Store-System/
-├── Final Version/
-│   ├── about.php
-│   ├── admin.php
-│   ├── home.php
-│   ├── login.php
-│   ├── signup.php
-│   ├── profile.php
-│   ├── product_detail.php
-│   ├── cart.php
-│   ├── buy.php
-│   ├── buy_result.php
-│   ├── delivery.php
-│   ├── orders.php
-│   ├── customers.php
-│   ├── manage_order.php
-│   ├── manage_product.php
-│   ├── product_management.php
-│   ├── add_product.php
-│   ├── style.css
-│   ├── image/
-│   ├── uploads/
-│   └── ph-json/
-└── onlinestore (Updated).sql
-```
-
 ## Requirements
 
 - A local PHP development environment such as **XAMPP**
