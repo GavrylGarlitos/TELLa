@@ -1,0 +1,57 @@
+<div id="addProductModal" class="modal">
+    <div class="modal-content">
+        <h3>Add New Product</h3>
+        <form enctype="multipart/form-data" method="post">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Product Name" required>
+            </div>
+            <div class="form-group">
+                <textarea name="description" placeholder="Product Description"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="number" name="price" placeholder="Price" step="0.01" min="0" required>
+            </div>
+            <div class="form-group">
+                <input type="number" name="quantity" placeholder="Quantity" min="0" required>
+            </div>
+            <div class="form-group">
+                <input type="file" name="product_image" accept="image/*">
+            </div>
+            <input type="hidden" name="add_product" value="1">
+            <div class="button-group">
+                <button type="button" id="cancelAdd" class="button">Cancel</button>
+                <button type="submit" class="button add-new">Save</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="editProductModal" class="modal">
+    <div class="modal-content">
+        <h3>Edit Product</h3>
+        <form enctype="multipart/form-data" method="post">
+            <input type="hidden" id="edit_id" name="product_id">
+            <div class="form-group">
+                <input type="text" id="edit_name" name="name" placeholder="Product Name" required>
+            </div>
+            <div class="form-group">
+                <textarea id="edit_desc" name="description" placeholder="Product Description"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="number" id="edit_price" name="price" placeholder="Price" step="0.01" min="0" required>
+            </div>
+            <div class="form-group">
+                <input type="number" id="edit_qty" name="quantity" placeholder="Quantity" min="0" required>
+            </div>
+            <div class="form-group">
+                <div class="current-image">Current Image: <span id="current_img"></span></div>
+                <input type="file" name="product_image" accept="image/*">
+            </div>
+            <input type="hidden" name="update_product" value="1">
+            <div class="button-group">
+                <button type="button" id="cancelEdit" class="button">Cancel</button>
+                <button type="submit" class="button add-new">Update</button>
+            </div>
+        </form>
+    </div>
+</div>
